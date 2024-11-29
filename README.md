@@ -3,10 +3,10 @@
 ```
 $ npm ci
 $ npx cherry compile main.cljs --out-file main.cli.jsx
-$ node compile.mjs
-$ diff main.cli.jsx main.node.jsx
 [cherry] Compiling CLJS file: main.cljs
 [cherry] Wrote file: /Users/rads/src/cherry-repro/main.cli.jsx
+$ node compile.mjs
+$ diff main.cli.jsx main.node.jsx
 1c1
 < import * as cherry_core from 'cherry-cljs/cljs.core.js';
 ---
